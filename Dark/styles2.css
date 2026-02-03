@@ -1,9 +1,9 @@
 :root {
-    --text-color: rgba(17, 21, 23, 1);
-    --search-text-color: rgba(128, 128, 128, 1);
-    --background-items-color: rgba(255, 255, 255, 1);
-    --background-body-color: rgba(255, 255, 255, 1);
-    --background-hover-color: rgb(242, 242, 242, 1);
+    --text-color: rgba(255, 255, 255, 1);
+    --search-text-color: rgba(255, 255, 255, 1);
+    --background-items-color: rgba(43, 56, 68, 1);
+    --background-body-color: rgba(32, 44, 54, 1);
+    --background-hover-color: rgba(32, 44, 54, 1);
 }
 
 * {
