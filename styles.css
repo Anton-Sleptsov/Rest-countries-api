@@ -40,7 +40,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 8px;
-
+    cursor: pointer;
     border: none;
     background-color: rgba(255, 255, 255, 1);
 }
@@ -75,6 +75,8 @@
 
     width: 264px;
     height: 336px;
+
+    cursor: pointer;
 }
 
 .country__flag img {
@@ -203,7 +205,7 @@
     position: absolute;
     top: 110%;
     left: 0;
-    background: #fff;
+    background: var(--colors-white, rgba(255, 255, 255, 1));
     border-radius: 6px;
     list-style: none;
     padding: 10px 0;
