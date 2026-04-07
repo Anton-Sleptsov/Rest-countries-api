@@ -1,0 +1,21 @@
+.countries {
+    padding: 20px;
+}
+
+.countries__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .countries__content {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 375px) {
+    .countries__content {
+        justify-content: center;
+    }
+}

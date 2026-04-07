@@ -1,13 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
+import Header from './components/Header/Header'
+import Settings from './components/Settings/Settings'
+import Countries from './components/Countries/Countries'
 
 function App() {
- 
+
   return (
-    <></>
+   <div className="wraper">
+      <Header />
+      <Settings />
+
+      <Countries />
+    </div>
   )
 }
 
